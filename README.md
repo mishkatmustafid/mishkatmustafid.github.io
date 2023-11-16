@@ -1,55 +1,8 @@
-# Mishkat Mustafid - Personal Portfolio
+# React + Vite
 
-This is my personal portfolio website created with NextJS. The purpose of this website is to showcase my skills and projects to potential clients and employers.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Getting Started
+Currently, two official plugins are available:
 
-### Prerequisites
-
-Before running the project locally, make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/)
-
-### Installing
-
-To run the project locally, clone the repository and run the following commands:
-
-```bash
-npm install
-npm run dev
-# or
-yarn install
-yarn dev
-```
-
-This will start the development server on [http://localhost:3000](http://localhost:3000).
-
-## Features
-
-- Responsive design with Bootstrap and custom CSS.
-- Projects page with descriptions, images, and links to live demos.
-- Contact form with serverless function for form submission.
-- About page with information about my background and skills.
-
-## Technologies Used
-
-- NextJS
-- React
-- Bootstrap
-- CSS
-- Github Pages (for deployment)
-
-## Deployment
-
-The website is currently deployed on Github at [mishkatmustafid.github.io/](mishkatmustafid.github.io/)
-
-## License
-
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
-
-## Acknowledgments
-
-- Thanks to [Next.js](https://nextjs.org/) for providing an excellent framework for building server-side rendered React applications.
-- Thanks to [Bootstrap](https://getbootstrap.com/) for providing a solid foundation for responsive design.
-- Thanks to [GitHub Pages](https://pages.github.com/) for providing a simple and powerful platform for hosting static websites directly from a GitHub repository.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
