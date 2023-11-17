@@ -2,7 +2,7 @@
   "name": "mishkatmustafid.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mishkatmustafid.github.io/",
+  "homepage": "https://mishkatmustafid.github.io/mishkatmustafid.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
