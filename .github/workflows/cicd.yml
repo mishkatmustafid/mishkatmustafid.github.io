@@ -43,19 +43,5 @@ jobs:
       - name: Build
         run: npm run build
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
-
-      - name: Run Deploy Script
+      - name: deploy
         run: npm run deploy
