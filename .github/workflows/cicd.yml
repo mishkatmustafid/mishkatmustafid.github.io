@@ -39,6 +39,11 @@ jobs:
           npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer
           npx tailwindcss init -p
           npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+      
+      - name: Setup Git
+        run: |
+          git config --global user.email "mishkatmustafid@gmail.com"
+          git config --global user.name "Mishkat Mustafid"
 
       - name: Build
         run: npm run build
