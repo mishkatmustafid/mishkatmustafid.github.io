@@ -43,5 +43,5 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: deploy
+      - name: Deploy
         run: npm run deploy

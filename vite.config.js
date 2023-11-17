@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/mishkatmustafid.github.io/",
   plugins: [react()],
   resolve: {
     alias: {
