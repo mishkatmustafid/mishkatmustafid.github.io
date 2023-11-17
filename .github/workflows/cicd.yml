@@ -43,7 +43,7 @@ jobs:
       - name: Setup Git
         run: |
           git config --global user.email "mishkatmustafid@gmail.com"
-          git config --global user.name "Mishkat Mustafid"
+          git config --global user.name "mishkatmustafid"
 
       - name: Build
         run: npm run build
