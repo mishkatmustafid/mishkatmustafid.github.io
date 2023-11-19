@@ -1,4 +1,9 @@
-// import {} from "../assets"
+import {
+  web,
+  mobile,
+  backend,
+  creator,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -15,7 +20,24 @@ export const navLinks = [
   },
 ];
 
-const services = [];
+const services = [
+  {
+    title: "Web Development",
+    icon: web,
+  },
+  {
+    title: "Backend Development",
+    icon: backend,
+  },
+  {
+    title: "Blockchain Development",
+    icon: mobile,
+  },
+  {
+    title: "AI Integration",
+    icon: creator,
+  },
+];
 
 const technologies = [];
 
