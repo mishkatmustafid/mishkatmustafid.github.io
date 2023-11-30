@@ -2,10 +2,10 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 const ProjectCard = ({
   index,
@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -32,17 +33,17 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_black")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover gap-5'>
+            <a
+              href={source_code_link}
+              target='_blank'
+              rel='noopener noreferrer'
             >
-              <img
-                src={github}
-                alt='github'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
+              <i className='fab fa-github'></i>
+            </a>
+            <a href={live_link} target='_blank' rel='noopener noreferrer'>
+              <i className='fab fa-link'></i>
+            </a>
           </div>
         </div>
         <div className='mt-5'>
@@ -83,10 +84,13 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
-        <p className='font-mono italic text-xl'>To Be Added.</p>
-        {/* {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))} */}
+        {projects.length ? (
+          projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))
+        ) : (
+          <p className='font-mono italic text-xl'>To Be Added.</p>
+        )}
       </div>
     </>
   );

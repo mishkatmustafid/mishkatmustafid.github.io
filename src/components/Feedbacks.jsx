@@ -51,10 +51,17 @@ const Feedbacks = () => {
         </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
-        <p className='font-mono italic text-xl'>To Be Added.</p>
-        {/* {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
-        ))} */}
+        {testimonials.length ? (
+          testimonials.map((testimonial, index) => (
+            <FeedbackCard
+              key={testimonial.name}
+              index={index}
+              {...testimonial}
+            />
+          ))
+        ) : (
+          <p className='font-mono italic text-xl'>To Be Added.</p>
+        )}
       </div>
     </div>
   );
