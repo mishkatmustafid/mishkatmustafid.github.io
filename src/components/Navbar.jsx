@@ -29,7 +29,20 @@ const Navbar = () => {
             Mishkat
           </p>
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-10 items-center'>
+          <li
+            className='bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded-lg hover:text-white 
+          text-[18px] font-medium cursor-pointer'
+          >
+            <a
+              href='https://calendly.com/your-username'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-white'
+            >
+              Book a session
+            </a>
+          </li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -56,6 +69,20 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-x1`}
           >
             <ul className='list-none flex justify-end items-start flex-col gap-4'>
+              <li
+                className='hover:text-white 
+          text-[16px] font-poppins font-medium cursor-pointer'
+              >
+                <a
+                  href='https://calendly.com/mishkat/meetup'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-white'
+                >
+                  Book a session
+                </a>
+              </li>
+              <hr className='white w-full' />
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
