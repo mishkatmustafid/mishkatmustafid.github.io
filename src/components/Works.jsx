@@ -83,10 +83,13 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
-        <p className='font-mono italic text-xl'>To Be Added.</p>
-        {/* {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))} */}
+        {projects.length ? (
+          projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))
+        ) : (
+          <p className='font-mono italic text-xl'>To Be Added.</p>
+        )}
       </div>
     </>
   );
