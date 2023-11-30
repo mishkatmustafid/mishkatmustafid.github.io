@@ -6,6 +6,13 @@ const Footer = () => {
       <div className='flex flex-col items-center m-5 fa-2xl scale-125 '>
         <div className='space-x-8'>
           <a
+            href='https://discord.com/users/479335016879620096'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fab fa-discord'></i>
+          </a>
+          <a
             href='https://linkedin.com/in/mishkatmustafid'
             target='_blank'
             rel='noopener noreferrer'
@@ -19,7 +26,7 @@ const Footer = () => {
           >
             <i className='fab fa-github'></i>
           </a>
-          <a href='mailto:your.email@example.com'>
+          <a href='mailto:mishkatmustafid@gmail.com'>
             <i className='far fa-envelope fa-solid'></i>
           </a>
           <a
@@ -35,6 +42,13 @@ const Footer = () => {
             rel='noopener noreferrer'
           >
             <i className='fab fa-telegram'></i>
+          </a>
+          <a
+            href='https://wa.me/01763804011' // Replace 1234567890 with the actual phone number
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fab fa-whatsapp'></i>
           </a>
         </div>
       </div>
