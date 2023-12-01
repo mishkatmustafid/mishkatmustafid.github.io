@@ -27,6 +27,10 @@ import flutter from "./tech/flutter.png";
 import dart from "./tech/dart.png";
 import postgresql from "./tech/postgresql.png";
 
+import example from "./example.png";
+import ayatbazar from "./company/ayatbazar.png";
+import baburchi from "./company/baburchi.jpeg";
+
 export {
   logo,
   menu,
@@ -54,5 +58,8 @@ export {
   rust,
   flutter,
   dart,
+  example,
   postgresql,
+  ayatbazar,
+  baburchi,
 };
