@@ -3,12 +3,13 @@ import "@fortawesome/fontawesome-free/css/all.css";
 const Footer = () => {
   return (
     <footer className='bg-primary text-white'>
-      <div className='flex flex-col items-center m-5 fa-2xl scale-125 '>
-        <div className='space-x-8'>
+      <div className='flex flex-col items-center m-5 fa-2xl sm:scale-125'>
+        <div className='flex flex-wrap items-center justify-center space-x-8 space-y-4'>
           <a
             href='https://discord.com/users/479335016879620096'
             target='_blank'
             rel='noopener noreferrer'
+            className='mt-4'
           >
             <i className='fab fa-discord'></i>
           </a>

@@ -29,7 +29,7 @@ const Navbar = () => {
             Mishkat
           </p>
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10 items-center'>
+        <ul className='list-none hidden md:flex flex-row gap-10 items-center'>
           <li
             className='bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded-lg hover:text-white 
           text-[18px] font-medium cursor-pointer'
@@ -55,7 +55,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='md:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'
