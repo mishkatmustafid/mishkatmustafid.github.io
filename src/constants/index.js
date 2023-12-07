@@ -21,6 +21,7 @@ import {
   flutter,
   dart,
   postgresql,
+  example,
 } from "../assets";
 
 export const navLinks = [
@@ -140,7 +141,7 @@ const experiences = [
     date: "Feb 2022 - Sep 2022",
     points: [
       "Developed secure Python code in the FastAPI framework, implementing token timeouts for enhanced authentication security.",
-      "Engineered scrapers and crawlers for data retrieval from public domains, concurrently building APIs and data clients for efficient data consumption.",
+      "Engineered scrapers & crawlers for data retrieval from public domains, concurrently building APIs and data clients for efficient data consumption.",
       "Conducted thorough troubleshooting, testing, and debugging, enhancing code quality and system efficiency.",
       "Contributed to agile Scrum teams, addressing scalability issues, implementing robust security measures, and crafting reusable code for future projects.",
     ],
