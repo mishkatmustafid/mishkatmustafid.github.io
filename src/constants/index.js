@@ -3,6 +3,7 @@ import {
   mobile,
   backend,
   creator,
+  ucd,
   html,
   css,
   javascript,
@@ -133,6 +134,19 @@ const technologies = [
   },
 ];
 const experiences = [
+  {
+    title: "Research Assistant",
+    company_name: "University College - Dublin",
+    icon: ucd,
+    iconBg: "#E6DEDD",
+    date: "Feb 2024 - Jul 2024",
+    points: [
+      "Enhanced code flow, debugging, and functionality for the HOLOS-IE prototype using WPF and C#, focusing on UI/UX improvements and MVVM design patterns.",
+      "Developed frontend and backend components with C# and JavaScript, incorporating SQL and NoSQL databases, and designing RESTful and GraphQL APIs.",
+      "Led the migration of HOLOS-IE from a desk-based to a web application, managing framework selection, backend architecture, and performance optimization.",
+      "Produced comprehensive design documents and collected requirements for new features to streamline development and ensure alignment with project goals.",
+    ],
+  },
   {
     title: "Backend Developer",
     company_name: "Tiger Trade",
