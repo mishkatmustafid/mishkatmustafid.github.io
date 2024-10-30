@@ -3,6 +3,7 @@ import {
   mobile,
   backend,
   creator,
+  ucd,
   html,
   css,
   javascript,
@@ -21,6 +22,7 @@ import {
   flutter,
   dart,
   postgresql,
+  example,
 } from "../assets";
 
 export const navLinks = [
@@ -133,6 +135,19 @@ const technologies = [
 ];
 const experiences = [
   {
+    title: "Research Assistant",
+    company_name: "University College - Dublin",
+    icon: ucd,
+    iconBg: "#E6DEDD",
+    date: "Feb 2024 - Jul 2024",
+    points: [
+      "Enhanced code flow, debugging, and functionality for the HOLOS-IE prototype using WPF and C#, focusing on UI/UX improvements and MVVM design patterns.",
+      "Developed frontend and backend components with C# and JavaScript, incorporating SQL and NoSQL databases, and designing RESTful and GraphQL APIs.",
+      "Led the migration of HOLOS-IE from a desk-based to a web application, managing framework selection, backend architecture, and performance optimization.",
+      "Produced comprehensive design documents and collected requirements for new features to streamline development and ensure alignment with project goals.",
+    ],
+  },
+  {
     title: "Backend Developer",
     company_name: "Tiger Trade",
     icon: creator,
@@ -140,7 +155,7 @@ const experiences = [
     date: "Feb 2022 - Sep 2022",
     points: [
       "Developed secure Python code in the FastAPI framework, implementing token timeouts for enhanced authentication security.",
-      "Engineered scrapers and crawlers for data retrieval from public domains, concurrently building APIs and data clients for efficient data consumption.",
+      "Engineered scrapers & crawlers for data retrieval from public domains, concurrently building APIs and data clients for efficient data consumption.",
       "Conducted thorough troubleshooting, testing, and debugging, enhancing code quality and system efficiency.",
       "Contributed to agile Scrum teams, addressing scalability issues, implementing robust security measures, and crafting reusable code for future projects.",
     ],
