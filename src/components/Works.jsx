@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import "@fortawesome/fontawesome-free/css/all.css";
+import { github, link } from "../assets";
 
 const ProjectCard = ({
   index,
@@ -34,16 +34,26 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover gap-5'>
-            <a
-              href={source_code_link}
-              target='_blank'
-              rel='noopener noreferrer'
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
-              <i className='fab fa-github'></i>
-            </a>
-            <a href={live_link} target='_blank' rel='noopener noreferrer'>
-              <i className='fab fa-link'></i>
-            </a>
+              <img
+                src={github}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+            <div
+              onClick={() => window.open(live_link, "_blank")}
+              className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={link}
+                alt='live link'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
           </div>
         </div>
         <div className='mt-5'>

@@ -27,6 +27,8 @@ import rust from "./tech/rust.png";
 import flutter from "./tech/flutter.png";
 import dart from "./tech/dart.png";
 import postgresql from "./tech/postgresql.png";
+import github from "./github.png";
+import link from "./link.png";
 
 import example from "./example.png";
 import ayatbazar from "./company/ayatbazar.png";
@@ -66,4 +68,6 @@ export {
   ayatbazar,
   baburchi,
   millow,
+  github,
+  link,
 };
