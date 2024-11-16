@@ -31,6 +31,7 @@ import postgresql from "./tech/postgresql.png";
 import example from "./example.png";
 import ayatbazar from "./company/ayatbazar.png";
 import baburchi from "./company/baburchi.jpeg";
+import millow from "./millow.png";
 
 export {
   logo,
@@ -64,4 +65,5 @@ export {
   postgresql,
   ayatbazar,
   baburchi,
+  millow,
 };
