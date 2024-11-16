@@ -35,7 +35,7 @@ const Navbar = () => {
           text-[18px] font-medium cursor-pointer'
           >
             <a
-              href='https://calendly.com/your-username'
+              href='https://calendly.com/mishkat'
               target='_blank'
               rel='noopener noreferrer'
               className='text-white'
