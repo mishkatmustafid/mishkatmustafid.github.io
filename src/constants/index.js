@@ -23,6 +23,7 @@ import {
   dart,
   postgresql,
   millow,
+  nextjs_demo,
 } from "../assets";
 
 export const navLinks = [
@@ -207,6 +208,24 @@ const projects = [
     image: millow,
     source_code_link: "https://github.com/mishkatmustafid/millow",
     live_link: "https://millow-three.vercel.app",
+  },
+  {
+    name: "FinTrack Dashboard",
+    description:
+      "A full-stack Next.js app featuring a public homepage, secure login, and protected dashboard pages. Users can manage invoices with add, edit, and delete functionality, all backed by a connected database. This project showcases my expertise in Next.js routing, authentication, and CRUD operations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "text-white",
+      },
+      {
+        name: "postgresql",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nextjs_demo,
+    source_code_link: "https://github.com/mishkatmustafid/nextjs-demo",
+    live_link: "https://nextjs-demo-azure-six.vercel.app/",
   },
 ];
 

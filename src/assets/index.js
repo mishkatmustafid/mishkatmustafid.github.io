@@ -34,6 +34,7 @@ import example from "./example.png";
 import ayatbazar from "./company/ayatbazar.png";
 import baburchi from "./company/baburchi.jpeg";
 import millow from "./millow.png";
+import nextjs_demo from "./nextjs_demo.png";
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   millow,
   github,
   link,
+  nextjs_demo,
 };
