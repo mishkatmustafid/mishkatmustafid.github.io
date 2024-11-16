@@ -181,7 +181,10 @@ const experiences = [
 
 const testimonials = [];
 
-const projects = [];
+
+const businesses = [];
+
+const awards = [];
 
 export {
   services,
@@ -189,4 +192,6 @@ export {
   experiences,
   testimonials,
   projects,
+  businesses,
+  awards,
 };
