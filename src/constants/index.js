@@ -22,7 +22,7 @@ import {
   flutter,
   dart,
   postgresql,
-  example,
+  millow,
 } from "../assets";
 
 export const navLinks = [
@@ -181,6 +181,34 @@ const experiences = [
 
 const testimonials = [];
 
+const projects = [
+  {
+    name: "Millow",
+    description:
+      "A simple website for real estate market where buyers, sellers, inspectors, and lenders interact till the sale of the estate is complete.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "web3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hardhat",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: millow,
+    source_code_link: "https://github.com/mishkatmustafid/millow",
+    live_link: "https://millow-three.vercel.app",
+  },
+];
 
 const businesses = [];
 
