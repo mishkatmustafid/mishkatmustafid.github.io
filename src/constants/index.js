@@ -22,7 +22,8 @@ import {
   flutter,
   dart,
   postgresql,
-  example,
+  millow,
+  nextjs_demo,
 } from "../assets";
 
 export const navLinks = [
@@ -33,6 +34,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -177,6 +182,63 @@ const experiences = [
 
 const testimonials = [];
 
-const projects = [];
+const projects = [
+  {
+    name: "Millow",
+    description:
+      "A simple website for real estate market where buyers, sellers, inspectors, and lenders interact till the sale of the estate is complete.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "web3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hardhat",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: millow,
+    source_code_link: "https://github.com/mishkatmustafid/millow",
+    live_link: "https://millow-three.vercel.app",
+  },
+  {
+    name: "FinTrack Dashboard",
+    description:
+      "A full-stack Next.js app featuring a public homepage, secure login, and protected dashboard pages. Users can manage invoices with add, edit, and delete functionality, all backed by a connected database. This project showcases my expertise in Next.js routing, authentication, and CRUD operations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "text-white",
+      },
+      {
+        name: "postgresql",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nextjs_demo,
+    source_code_link: "https://github.com/mishkatmustafid/nextjs-demo",
+    live_link: "https://nextjs-demo-azure-six.vercel.app/",
+  },
+];
 
-export { services, technologies, experiences, testimonials, projects };
+const businesses = [];
+
+const awards = [];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  businesses,
+  awards,
+};
